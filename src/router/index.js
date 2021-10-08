@@ -4,8 +4,8 @@ import Home from '../views/home.vue'
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'home',
+    component: () => import('../views/home.vue')
   },
   {
     path: '/findthenumber',
