@@ -1,4 +1,5 @@
 <template>
+
   <div class="container">
     <div class="grid">
       <span @click="selectNumber(val)" v-for="val in logArray" :key="val">{{
@@ -11,6 +12,10 @@
       Find Number <span>{{ number }}</span>
     </h1>
   </div>
+
+  <a href="https://github.com/brianfordcode/math-exercises/blob/main/src/views/find-the-number.vue" target="_blank">This Exercise's Code</a>
+
+
 </template>
 
 <script>
@@ -55,11 +60,12 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
 }
 
 .grid {
@@ -99,9 +105,30 @@ button:active {
 }
 
 h1 {
-  padding-top: 20px;
+  padding: 20px 0;
 }
 h1 span {
   color: purple;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: right;
+    /* align-items: center; */
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    border: 1px solid blue;padding: 5px;
+    border: 1px solid black;
+    transition: .15s ease-in-out;
+}
+
+a:hover {
+    transform: scale(1.1);
+}
+
+
+
 </style>

@@ -1,15 +1,25 @@
 <template>
-  <div class="home">
-    <h1>test</h1>
-  </div>
+<div>
+  <h1>Hello!</h1>
+  <p>This is a collection of fun little math games I create using code!</p>
+  <br/>
+  <p>Choose your game above.</p>
+</div>
+  
 </template>
 
 <script>
-// @ is an alias to /src
-
 export default {
-  name: 'Home',
-  components: {
-  }
+
 }
 </script>
+
+<style scoped>
+
+div {
+    padding: 0 20px;
+}
+
+
+
+</style>
