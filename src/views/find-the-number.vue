@@ -2,9 +2,11 @@
 
   <div class="container">
     <div class="grid">
-      <span @click="selectNumber(val)" v-for="val in logArray" :key="val">{{
-        val
-      }}</span>
+      <span 
+        @click="selectNumber(val)"
+        v-for="val in logArray"
+        :key="val">{{val}}
+      </span>
     </div>
 
     <button @click="startGame">Get a Number!</button>
@@ -114,13 +116,11 @@ h1 span {
 a {
     text-decoration: none;
     color: black;
-    display: flex;
-    justify-content: right;
-    /* align-items: center; */
     position: absolute;
     bottom: 50px;
     right: 50px;
-    border: 1px solid blue;padding: 5px;
+    border: 1px solid blue;
+    padding: 5px;
     border: 1px solid black;
     transition: .15s ease-in-out;
 }
