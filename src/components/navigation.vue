@@ -2,7 +2,7 @@
   <div id="nav">
     <router-link to="/">Home</router-link>
     <router-link to="/findthenumber">Find The Number</router-link>
-    <router-link to="/colorthecircle">Color the Circle</router-link>
+    <router-link to="/selectthecircle">Select the Circle</router-link>
   </div>
 </template>
 
