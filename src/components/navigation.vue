@@ -2,7 +2,8 @@
   <div id="nav">
     <router-link to="/">Home</router-link>
     <router-link to="/findthenumber">Find The Number</router-link>
-    <router-link to="/selectthecircle">Select the Circle</router-link>
+    <router-link to="/selectthecircle">Select The Circle</router-link>
+    <router-link to="/findtheshape">Find The Shape</router-link>
   </div>
 </template>
 
@@ -16,7 +17,9 @@ export default {
 #nav {
   padding: 15px;
   display: flex;
+  align-items: center;
   justify-content: left;
+  /* border: 1px solid blue; */
   margin-bottom: 50px;
   box-shadow: 0px 0px 33px -20px #000000;
 }
