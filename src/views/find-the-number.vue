@@ -15,9 +15,6 @@
     </h1>
   </div>
 
-  <a href="https://github.com/brianfordcode/math-exercises/blob/main/src/views/find-the-number.vue" target="_blank">This Exercise's Code</a>
-
-
 </template>
 
 <script>
@@ -111,22 +108,6 @@ h1 {
 }
 h1 span {
   color: purple;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-    position: absolute;
-    bottom: 50px;
-    right: 50px;
-    border: 1px solid blue;
-    padding: 5px;
-    border: 1px solid black;
-    transition: .15s ease-in-out;
-}
-
-a:hover {
-    transform: scale(1.1);
 }
 
 
