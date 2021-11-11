@@ -1,5 +1,7 @@
 <template>
 
+<!-- THIS CODE WRITTEN IN HTML, CSS, VANILLA JS -->
+
     <body>
 
         <p>refresh page to see authors</p>

@@ -17,7 +17,12 @@ export default {
             }
             if (this.$route.name === 'selectthecircle') {
                 window.open('https://github.com/brianfordcode/math-exercises/blob/main/src/views/select-the-circle.vue', '_blank');
-            } else {
+            }
+            if (this.$route.name === 'jsonuserdata') {
+                window.open('https://github.com/brianfordcode/math-exercises/blob/main/src/views/json-user-data.vue', '_blank');
+            }
+            
+            else {
                 alert("code not linked!")
             }
         },
