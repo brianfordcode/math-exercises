@@ -3,7 +3,8 @@
     <router-link to="/">Home</router-link>
     <router-link to="/findthenumber">Find The Number</router-link>
     <router-link to="/selectthecircle">Select The Circle</router-link>
-    <router-link to="/findtheshape">Find The Shape</router-link>
+    <!-- <router-link to="/findtheshape">Find The Shape</router-link> -->
+    <router-link to="/jsonuserdata">JSON User Data</router-link>
   </div>
 </template>
 
@@ -26,7 +27,7 @@ export default {
 
 #nav a {
   font-weight: bold;
-  margin-right: 20px;
+  margin-right: 30px;
   color: black;
   text-decoration: none;
 }

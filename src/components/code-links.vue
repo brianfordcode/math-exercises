@@ -1,6 +1,6 @@
 <template>
-  <div>
-      <div class="link" @click="linkToCode">This Exercise's Code</div>
+  <div >
+      <div v-if="!isHome" class="link" @click="linkToCode">This Exercise's Code</div>
   </div>
 </template>
 
@@ -17,7 +17,16 @@ export default {
             }
             if (this.$route.name === 'selectthecircle') {
                 window.open('https://github.com/brianfordcode/math-exercises/blob/main/src/views/select-the-circle.vue', '_blank');
+            } else {
+                alert("code not linked!")
             }
+        },
+        
+        
+    },
+    computed: {
+        isHome() {
+            return this.$route.name === 'Home'
         }
     }
 }

@@ -1,9 +1,9 @@
 <template>
 <div>
   <h1>Hello!</h1>
-  <p>This is a collection of fun little math games I create using code!</p>
+  <p>This is a collection of coding exercises to show what I can do!</p>
   <br/>
-  <p>Choose your game above.</p>
+  <p>Choose a project above.</p>
 </div>
   
 </template>
